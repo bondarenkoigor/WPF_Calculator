@@ -53,7 +53,7 @@
         <Button Grid.Row="4" Grid.Column="3">-</Button>
         <Button Grid.Row="5" Grid.Column="3">+</Button>
         <Button Grid.Row="6" Grid.Column="3" Background="LightBlue">=</Button>
-        <Label Margin="0,0,0,10" Grid.Column="3" FontSize="60" HorizontalAlignment="Right" VerticalAlignment="Bottom">0</Label>
+        <TextBox Margin="0,0,0,10" Grid.ColumnSpan="4" FontSize="60" HorizontalAlignment="Right" VerticalAlignment="Bottom" Visibility="Visible" BorderThickness="0,0,0,0" Background="LightGray" Width="auto">0</TextBox>
         <Image HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Height="30" Source="/Hamburger_icon.svg.png"></Image>
         <Image Grid.Column="3" HorizontalAlignment="Right" VerticalAlignment="Top" Width="30" Height="30" Source="/img_71983.png"></Image>
         <StackPanel HorizontalAlignment="Stretch" Grid.Row="0" Grid.ColumnSpan="4" Orientation="Horizontal" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
