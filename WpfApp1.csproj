@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Hamburger_icon.svg.png" />
+    <None Remove="img_71983.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hamburger_icon.svg.png" />
+    <Resource Include="img_71983.png" />
+  </ItemGroup>
+
+</Project>
